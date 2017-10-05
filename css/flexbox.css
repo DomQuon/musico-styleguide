@@ -1,0 +1,31 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+.box {
+  display: -ms-flex;
+  display: flex;
+
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.box-item-nav {
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+}
+
+.box-item-nav-home {
+  -ms-flex-grow: 10;
+  flex-grow: 10;
+}
+
+.box-main-content {
+  -ms-flex-grow: 3;
+  flex-grow: 3;
+}
+
+.box-side-content {
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+}
