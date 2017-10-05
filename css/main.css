@@ -1,0 +1,241 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 2rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-bottom: 0.15em solid #333;
+}
+
+section h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+.style-nav {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 0.15em solid #333;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
+ul.citations {
+  margin-left: 0.25em;
+  padding-left: 0.25em;
+}
+
+ul.citations li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 1em;
+}
+
+ul.citations li strong {
+  font-weight: normal;
+  font-style: italic;
+}
+
+cite {
+  font-style: normal;
+}
+
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.default-button {
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  padding: 0.6em 1.05em;
+  color: #FFF;
+  background-color: #d35400;
+  border-radius: .5em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+.default-button:active, .default-button:hover, .default-button:focus {
+  background-color: #e67e22;
+}
+
+.in-text-link {
+  color: #d35400;
+  text-decoration: none;
+}
+
+.in-text-link:active, .in-text-link:hover, .in-text-link:focus {
+  text-decoration: underline;
+}
+
+.submit-button {
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  padding: 0.6em 1.05em;
+  color: #FFF;
+  background-color: #d35400;
+  border-radius: .5em;
+  border: none;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+.submit-button:active, .submit-button.hover, .submit-button:focus {
+  background-color: #e67e22;
+}
+
+.text-input {
+  font-size: 1rem;
+  padding: 0.2em 0.5em;
+  border-radius: .5em;
+  border-style: solid;
+  border-color: #d3d3d3;
+}
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+.heading-1, .heading-2, .nav-main-item-home {
+  font-family: 'Roboto Slab', serif;
+}
+.heading-1 {
+  font-size: 2.5rem;
+}
+
+.heading-2 {
+  font-size: 1.7rem;
+}
+
+.heading-3 {
+  font-size: 1.3rem;
+}
+
+.paragraph {
+  line-height: 1.7rem;
+}
+
+.bullet-list {
+  list-style-type: square;
+  line-height: 2rem;
+}
+
+.number-list {
+  line-height: 2rem;
+}
+
+/*
+  COMBINED ELEMENTS -------------------
+*/
+
+.nav-bar {
+  box-shadow: 1px 1px 5px #888888;
+}
+
+.nav-main-item {
+  display: inline-block;
+  color: black;
+  font-size: 1rem;
+  padding: 2rem;
+  text-decoration: none;
+  text-align: right;
+  -webkit-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+
+.nav-main-item-home {
+  display: inline-block;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+  text-decoration: none;
+  text-align: right;
+  text-align: left;
+}
+
+.nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
+	color: grey;
+}
+
+.service-item {
+  display: inline-block;
+  width:20rem;
+  border-radius: .5rem;
+  box-shadow: 1px 1px 5px #888888;
+}
+
+.service-item a, .service-item h2, .service-item h3{
+  width: 100%;
+  text-align: center;
+}
+
+.service-item p {
+  padding-top: .7rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.main-content {
+  display: inline-block;
+  background-color: #d3d3d3;
+  padding: 5rem;
+  border-style: solid;
+  border-color: white;
+}
+
+.side-content {
+  display: inline-block;
+  background-color: #d3d3d3;
+  padding: 5rem;
+  border-style: solid;
+  border-color: white;
+}
+
+.swatch {
+  display: inline-block;
+  width: 8rem;
+  height: 8rem;
+  text-align: center;
+  padding-top: 2.3rem;
+}
+
+.dark-orange {
+  background: #d35400;
+}
+
+.light-orange {
+  background: #e67e22;
+}
+
+.light-grey {
+  background: #d3d3d3;
+}
