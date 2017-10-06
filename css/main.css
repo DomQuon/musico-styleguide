@@ -157,33 +157,67 @@ cite {
 */
 
 .nav-bar {
-  box-shadow: 1px 1px 5px #888888;
+  box-shadow: 0px 4px 6px #e1e2e3;
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+}
+
+.nav-link-group {
+  float: right;
+    padding-right: 2rem;
+    line-height: 4rem;
+}
+
+.logo {
+  color: black;
+  font-size: 1.5rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 2rem;
+  line-height: 3.7rem;
 }
 
 .nav-main-item {
-  display: inline-block;
+  box-sizing: border-box;
   color: black;
-  font-size: 1rem;
-  padding: 2rem;
+  font-size: 0.9rem;
   text-decoration: none;
-  text-align: right;
   -webkit-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
+  padding: 1rem;
 }
 
-.nav-main-item-home {
-  display: inline-block;
-  color: black;
-  font-size: 2rem;
-  font-weight: bold;
-  padding: 1rem;
-  text-decoration: none;
-  text-align: right;
-  text-align: left;
+.nav-emphasis {
+  font-weight: 800;
 }
 
 .nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
-	color: grey;
+	color: #d35400;
+}
+
+@media screen and (max-width: 500px){
+  .logo{
+    display: block;
+    padding: 0;
+    text-align: center;
+  }
+  .nav-main-item {
+    display: block;
+    background-color: #ffffff;
+    height: 2rem;
+    padding: 0;
+    line-height: normal;
+  }
+  .nav-link-group {
+    width: 100%;
+    text-align: center;
+    padding-right: 0;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    box-shadow: 0px 4px 6px #e1e2e3;
+  }
 }
 
 .service-item {
