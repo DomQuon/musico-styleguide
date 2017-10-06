@@ -187,21 +187,15 @@ cite {
 }
 
 .service-item {
+  text-align: center;
   display: inline-block;
-  width:20rem;
+  width:30%;
   border-radius: .5rem;
   box-shadow: 1px 1px 5px #888888;
 }
 
-.service-item a, .service-item h2, .service-item h3{
-  width: 100%;
-  text-align: center;
-}
-
-.service-item p {
-  padding-top: .7rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.checked {
+  color: orange;
 }
 
 .main-content {
