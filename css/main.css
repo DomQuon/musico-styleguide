@@ -241,6 +241,10 @@ cite {
   background: #d3d3d3;
 }
 
+.footer-extra-padding {
+  margin-top: 12rem;
+}
+
 .nav-footer-main-item:active, .nav-footer-main-item:hover, .nav-footer-main-item:focus {
 	color: #d35400;
 }
@@ -335,4 +339,23 @@ cite {
 
 .light-grey {
   background: #d3d3d3;
+}
+
+.fullscreen{
+  padding: 0;
+  margin: 0;
+}
+
+.success-title {
+  text-align: center;
+  margin-top: 12rem;
+}
+
+.success-message {
+    text-align: center;
+}
+
+.success-button {
+  text-align: center;
+  margin-top: 3rem;
 }
