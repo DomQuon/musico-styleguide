@@ -271,6 +271,28 @@ cite {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.sub-category-item {
+  text-align: center;
+  text-decoration: none;
+  text-decoration: bold;
+  font-size: 1.2rem;
+  color: black;
+  display: inline-block;
+  padding-top: 4rem;
+  margin: .2rem;
+  width: 12rem;
+  height: 10rem;
+  border-radius: .5rem;
+  box-shadow: 1px 1px 5px #888888;
+  background-color: white;
+  -webkit-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+
+.sub-category-item:active, .sub-category-item:hover, .sub-category-item:focus {
+  color: #d35400;
+}
+
 .service-item {
   text-align: center;
   display: inline-block;
