@@ -344,9 +344,21 @@ cite {
     text-align: center;
 }
 
-.success-button {
+.centered {
   text-align: center;
   margin-top: 3rem;
+}
+
+textarea {
+  width:30rem;
+  height: 6rem;
+  resize: none;
+  font-size: 1rem;
+  padding: 0.2em 0.5em;
+  border-radius: .5em;
+  border-style: solid;
+  border-color: #d3d3d3;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .footer-nav-bar {
