@@ -294,11 +294,19 @@ cite {
 }
 
 .service-item {
-  text-align: center;
   display: inline-block;
-  width:30%;
+  width:16rem;
   border-radius: .5rem;
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
   box-shadow: 1px 1px 5px #888888;
+}
+
+.service-item a {
+  width: 100%;
+  text-align: center;
 }
 
 .event-item {
