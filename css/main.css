@@ -4,13 +4,19 @@
 */
 body {
   font-family: 'Open Sans', sans-serif;
-  padding: 2rem;
 }
 
+/*
 section:not([id]) {
   margin: 1em 0;
   padding: 1em 0;
-  border-bottom: 0.15em solid #333;
+}
+*/
+
+section {
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 section h2 {
@@ -124,7 +130,7 @@ cite {
 /*
   TEXT ELEMENTS -------------------
 */
-.heading-1, .heading-2, .nav-main-item-home {
+.heading-1, .heading-2, .heading-4, .nav-main-item-home {
   font-family: 'Roboto Slab', serif;
 }
 .heading-1 {
@@ -137,10 +143,19 @@ cite {
 
 .heading-3 {
   font-size: 1.3rem;
+
+}
+
+.heading-4 {
+  font-size: 1rem;
 }
 
 .paragraph {
   line-height: 1.7rem;
+}
+
+.time-location {
+  color: grey;
 }
 
 .bullet-list {
@@ -220,12 +235,76 @@ cite {
   }
 }
 
+.footer-nav {
+  width: 100%;
+  height: 4rem;
+  background: grey;
+}
+
+.nav-footer-main-item {
+  box-sizing: border-box;
+  color: white;
+  font-size: 0.9rem;
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+  padding: 1rem;
+}
+
+.nav-footer-main-item:active, .nav-footer-main-item:hover, .nav-footer-main-item:focus {
+	color: #d35400;
+}
+
+
+.intro-section {
+  text-align: center;
+}
+
+.main-section {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.category-item {
+  text-align: center;
+  text-decoration: none;
+  text-decoration: bold;
+  font-size: 1.2rem;
+  color: white;
+  display: inline-block;
+  padding-top: 4rem;
+  margin: .2rem;
+  width: 12rem;
+  height: 10rem;
+  border-radius: .5rem;
+  box-shadow: 1px 1px 5px #888888;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+.category-item:active, .category-item:hover, .category-item:focus {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 .service-item {
   text-align: center;
   display: inline-block;
   width:30%;
   border-radius: .5rem;
   box-shadow: 1px 1px 5px #888888;
+}
+
+.event-item {
+  margin: 1rem;
+  display: inline-block;
+  width: 28%;
+}
+
+.event-item a {
+  width: 100%;
+  text-align: center;
 }
 
 .checked {
