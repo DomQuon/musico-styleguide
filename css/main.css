@@ -180,8 +180,8 @@ cite {
 
 .nav-link-group {
   float: right;
-    padding-right: 2rem;
-    line-height: 4rem;
+  padding-right: 2rem;
+  line-height: 4rem;
 }
 
 .logo {
@@ -235,20 +235,9 @@ cite {
   }
 }
 
-.footer-nav {
-  width: 100%;
-  height: 4rem;
-  background: #d3d3d3;
-}
-
-.footer-extra-padding {
-  margin-top: 12rem;
-}
-
 .nav-footer-main-item:active, .nav-footer-main-item:hover, .nav-footer-main-item:focus {
 	color: #d35400;
 }
-
 
 .intro-section {
   text-align: center;
@@ -358,4 +347,35 @@ cite {
 .success-button {
   text-align: center;
   margin-top: 3rem;
+}
+
+.footer-nav-bar {
+  min-height: 4rem;
+  overflow: hidden;
+  background: #d3d3d3;
+}
+
+.footer-items-group {
+  float: right;
+  line-height: 3.8rem;
+  margin-right: 2rem;
+}
+
+.footer-top-space {
+  margin-top: 12rem;
+}
+
+.footer-item {
+  color: black;
+  font-size: 0.9rem;
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+  padding: 1rem;
+  width: 25%;
+  white-space: nowrap;
+}
+
+.footer-item:active, .footer-item:hover, .footer-item:focus {
+  color: #d35400;
 }
