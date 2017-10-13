@@ -125,6 +125,8 @@ cite {
   border-radius: .5em;
   border-style: solid;
   border-color: #d3d3d3;
+  width: 24rem;
+  height: 2.5rem;
 }
 
 /*
@@ -377,6 +379,11 @@ cite {
 .centered {
   text-align: center;
   margin-top: 3rem;
+}
+
+.centered-reduced-height {
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .article {
