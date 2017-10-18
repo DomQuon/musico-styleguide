@@ -38,10 +38,6 @@ section p {
   border-bottom: 0.15em solid #333;
 }
 
-nav a:hover, nav a:focus {
-  text-decoration: none;
-}
-
 section code {
   background-color: #EEE;
   padding: 0.5em 0.75em;
@@ -186,16 +182,6 @@ cite {
   line-height: 4rem;
 }
 
-.logo {
-  color: black;
-  font-size: 1.5rem;
-  font-family: 'Roboto Slab', serif;
-  font-weight: bold;
-  text-decoration: none;
-  padding-left: 2rem;
-  line-height: 3.7rem;
-}
-
 .nav-main-item {
   box-sizing: border-box;
   color: black;
@@ -208,37 +194,6 @@ cite {
 
 .nav-emphasis {
   font-weight: 800;
-}
-
-.nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
-	color: #d35400;
-}
-
-@media screen and (max-width: 500px){
-  .logo{
-    display: block;
-    padding: 0;
-    text-align: center;
-  }
-  .nav-main-item {
-    display: block;
-    background-color: #ffffff;
-    height: 2rem;
-    padding: 0;
-    line-height: normal;
-  }
-  .nav-link-group {
-    width: 100%;
-    text-align: center;
-    padding-right: 0;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    box-shadow: 0px 4px 6px #e1e2e3;
-  }
-}
-
-.nav-footer-main-item:active, .nav-footer-main-item:hover, .nav-footer-main-item:focus {
-	color: #d35400;
 }
 
 .intro-section {
