@@ -1,0 +1,19 @@
+.category-item {
+  position: relative;
+  width: 12.5rem;
+  height: 12.5rem;
+}
+
+h3 {
+  position:absolute;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 12.5rem;
+}
+
+.category-image {
+  position: relative;
+}
