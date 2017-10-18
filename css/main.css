@@ -6,13 +6,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/*
-section:not([id]) {
-  margin: 1em 0;
-  padding: 1em 0;
-}
-*/
-
 section {
   margin-bottom: 1rem;
   padding-top: 1rem;
@@ -130,6 +123,7 @@ cite {
 */
 .heading-1, .heading-2, .heading-4, .nav-main-item-home {
   font-family: 'Roboto Slab', serif;
+  text-align: center;
 }
 .heading-1 {
   font-size: 2.5rem;
@@ -137,6 +131,8 @@ cite {
 
 .heading-2 {
   font-size: 1.7rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .heading-3 {
@@ -201,22 +197,33 @@ cite {
 }
 
 .main-section {
-  width: 65%;
-  margin-left: auto;
-  margin-right: auto;
+  display: -ms-flex;
+  display: flex;
+
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  flex-basis: 100%;
 }
 
 .category-item {
-  text-align: center;
+  display: -ms-flex;
+  display: flex;
+
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
   text-decoration: none;
-  text-decoration: bold;
   font-size: 1.2rem;
   color: white;
-  display: inline-block;
-  padding-top: 4rem;
-  margin: .2rem;
-  width: 12rem;
-  height: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   border-radius: .5rem;
   box-shadow: 1px 1px 5px #888888;
   background-color: rgba(0, 0, 0, 0.5);
