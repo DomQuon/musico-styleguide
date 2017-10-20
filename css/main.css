@@ -122,11 +122,6 @@ cite {
   color: grey;
 }
 
-.bullet-list {
-  list-style-type: square;
-  line-height: 2rem;
-}
-
 .number-list {
   line-height: 2rem;
 }
