@@ -11,6 +11,7 @@ body {
   font-size: 1rem;
   padding: 0.2em 0.5em;
   border-radius: .5em;
+  border-width: 0.09rem;
   border-style: solid;
   border-color: #d3d3d3;
   font-family: 'Open Sans', sans-serif;
@@ -20,6 +21,10 @@ body {
 
   display: block;
   width: 100%;
+}
+
+.text-area {
+  height: 6rem;
 }
 
 em {
