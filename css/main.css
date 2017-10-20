@@ -66,14 +66,6 @@ cite {
   background-color: #e67e22;
 }
 
-.in-text-link {
-  color: #d35400;
-  text-decoration: none;
-}
-
-.in-text-link:active, .in-text-link:hover, .in-text-link:focus {
-  text-decoration: underline;
-}
 
 .submit-button {
   font-weight: bold;
