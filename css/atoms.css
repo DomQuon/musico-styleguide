@@ -1,0 +1,59 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin: 0;
+  color: #FFF;
+}
+
+h4 {
+  margin:0;
+  font-family: 'Roboto Slab', serif;
+}
+
+p {
+  margin:0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+  font-family: 'Roboto Slab', serif;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  padding: 0.6em 1.05em;
+  color: #FFF;
+  background-color: #d35400;
+  border-radius: .5em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+
+  width: 100%;
+  text-align: center;
+}
+
+.button:active, .button:hover, .button:focus {
+  background-color: #e67e22;
+}
