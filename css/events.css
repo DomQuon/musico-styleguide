@@ -60,6 +60,9 @@ p {
   text-decoration: none;
   -webkit-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
+
+  width: 100%;
+  text-align: center;
 }
 
 .button:active, .button:hover, .button:focus {
