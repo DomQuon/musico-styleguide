@@ -77,3 +77,31 @@ h2 {
 .electric-guitar-image {
     background-image: url(../images/electric-guitar.png);
 }
+
+@media(max-width: 77.125rem) {
+  .category-group {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media(max-width: 67.4375rem) {
+  .category-group {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media(max-width: 59.9375rem) {
+  .category-group {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media(max-width: 47.8125rem) {
+  .category-group {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}

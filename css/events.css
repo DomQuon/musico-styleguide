@@ -21,7 +21,7 @@
   margin-left: 2rem;
   margin-bottom: 3rem;
 
-  max-width: 18rem;
+  max-width: 14rem;
 }
 
 h4{
@@ -60,5 +60,33 @@ button {
 
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
-  width: 8rem;
+  width: 100%;
+}
+
+@media(max-width: 77.125rem) {
+  .event-group {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media(max-width: 67.4375rem) {
+  .event-group {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media(max-width: 59.9375rem) {
+  .event-group {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media(max-width: 47.8125rem) {
+  .event-group {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
