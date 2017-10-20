@@ -1,0 +1,38 @@
+.sub-category-item {
+  background-repeat: no-repeat;
+  background-size: 12.5rem;
+  width: 12.5rem;
+  height: 12.5rem;
+  box-shadow: 0px 4px 6px #e1e2e3;
+  border-radius: 1.3rem;
+  text-decoration: none;
+
+  margin: 0.5rem;
+  display: inline-block;
+}
+
+.sub-category-item h2:active, .sub-category-item h2:hover, .sub-category-item h2:focus {
+  box-shadow: 0px 6px 8px #e1e2e3;
+  color: #d35400;
+}
+
+
+.sub-category {
+  /*basic text visual styling*/
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin: 0;
+
+  /*Center the text in it's container*/
+  text-align: center;
+  line-height: 12.5rem;
+
+  /*Add text colour and background colour*/
+  color: black;
+  background-color: white;
+  -webkit-transition: box-shadow 0.2s ease-out, color 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out, color 0.2s ease-out;
+  border-radius: 1.3rem;
+
+}
