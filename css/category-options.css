@@ -32,18 +32,11 @@
 
 
 h2 {
-  /*basic text visual styling*/
-  font-family: 'Roboto Slab', serif;
-  font-size: 1.2rem;
-  font-weight: normal;
-  margin: 0;
-
   /*Center the text in it's container*/
   text-align: center;
   line-height: 12.5rem;
 
   /*Add text colour and background colour*/
-  color: #FFF;
   background-color: rgba(0, 0, 0, 0.5);
   -webkit-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
