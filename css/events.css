@@ -49,18 +49,21 @@ p {
     margin-bottom: 1rem;
 }
 
-button {
-  background-color: #d35400;
-  border: none;
-  font-size: 0.9rem;
-  font-family: 'Open Sans', sans-serif;
-  border-radius: 0.6rem;
-  color: white;
+.button {
   font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  padding: 0.6em 1.05em;
+  color: #FFF;
+  background-color: #d35400;
+  border-radius: .5em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
 
-  padding-top: 0.7rem;
-  padding-bottom: 0.7rem;
-  width: 100%;
+.button:active, .button:hover, .button:focus {
+  background-color: #e67e22;
 }
 
 @media(max-width: 77.125rem) {
