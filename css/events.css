@@ -58,6 +58,8 @@ p {
   background-color: #d35400;
   border-radius: .5em;
   text-decoration: none;
+  width: 100%;
+  text-align: center;
   -webkit-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
 
