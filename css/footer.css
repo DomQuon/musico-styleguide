@@ -1,0 +1,39 @@
+.footer-container {
+  background: #d3d3d3;
+}
+
+.footer-items-group {
+  display: -ms-flex;
+  display: flex;
+
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  justify-content:flex-end;
+
+  margin-right: 1rem;
+}
+
+.footer-item {
+  color: black;
+  font-size: 0.9rem;
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+
+  padding: 1rem;
+}
+
+.footer-item:active, .footer-item:hover, .footer-item:focus {
+  color: #d35400;
+}
+
+
+@media(min-width: 26rem) {
+  .footer-container {
+    position:fixed;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+  }
