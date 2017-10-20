@@ -36,6 +36,10 @@ p {
   margin-bottom: 1rem;
 }
 
+.detail-description {
+  margin-bottom: 2rem;
+}
+
 em {
   font-weight: bold;
   font-style: normal;
@@ -81,4 +85,19 @@ em {
 
 .in-text-link:active, .in-text-link:hover, .in-text-link:focus {
   color: #e67e22;
+}
+
+.checked {
+  color: orange;
+}
+
+.bullet-list {
+  list-style-type: square;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.centred-star-rating {
+  text-align: center;
+  margin-bottom: 2rem;
 }
