@@ -65,6 +65,7 @@ em {
 
 .text-block {
   max-width: 44rem;
+  margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
 }
