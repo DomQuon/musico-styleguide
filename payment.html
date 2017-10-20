@@ -7,6 +7,11 @@
 
     <link href="css/main.css" rel="stylesheet">
     <link href="css/flexbox.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/title.css" rel="stylesheet">
+    <link href="css/events.css" rel="stylesheet">
+    <link href="css/forms.css" rel="stylesheet">
+      <link href="css/footer.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 
@@ -15,50 +20,36 @@
   </head>
 
   <body class="fullscreen">
-    <nav class="nav-bar">
+
+    <nav class="header-nav">
       <a href="home.html" class="logo">musico</a>
-      <div class="nav-link-group">
-        <a href="article-template.html" class="nav-main-item">about</a>
-        <a href="lessons.html" class="nav-main-item">lessons</a>
-        <a href="" class="nav-main-item nav-emphasis">log in</a>
+      <div class="header-nav-group">
+        <a href="article-template.html" class="nav-item">about</a>
+        <a href="lessons.html" class="nav-item">lessons</a>
+        <a href="" class="nav-item">log in</a>
       </div>
     </nav>
 
-    <h1 class="heading-1 success-title">
-      Payment
-    </h1>
+    <section>
+      <h1 class="">Purchase a Lesson</h1>
+      <p class="intro-paragraph">The total cost of this lesson is <em>$169.99</em></p>
+    </section>
 
-    <p class="success-message paragraph">This lesson is going to cost -lots of money-.
-    </p>
+    <section class="form-container">
+      <input type="text" placeholder="Card number" class="form-field">
+      <input type="text" placeholder="Expiry date" class="form-field">
+      <input type="text" placeholder="CVV" class="form-field">
 
-    <div class="centered-reduced-height">
-        <input type="text" placeholder="Bank info" class="text-input">
-    </div>
+      <button>Submit payment</button>
+    </section>
 
-    <div class="centered-reduced-height">
-        <input type="text" placeholder="More bank info" class="text-input">
-    </div>
-
-    <div class="centered-reduced-height">
-        <input type="text" placeholder="More bank info" class="text-input">
-    </div>
-
-    <div class="centered-reduced-height">
-        <input type="text" placeholder="Access to your bank account credentials" class="text-input">
-    </div>
-
-    <div class="centered">
-      <a href="success.html" class="default-button">Give money</a>
-    </div>
-
-    <nav class="footer-nav-bar footer-top-space">
+    <footer class="footer-container">
       <div class="footer-items-group">
         <a href="#" class="footer-item">contact us</a>
         <a href="#" class="footer-item">careers</a>
         <a href="#" class="footer-item">office location</a>
         <a href="#" class="footer-item">help centre</a>
-      </div>
-    </nav>
+      </footer>
 
   </body>
 </html>
