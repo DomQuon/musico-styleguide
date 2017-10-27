@@ -48,7 +48,6 @@ p {
   margin:0;
   font-size: 1rem;
   line-height: 1.5rem;
-  width: 100%;
 }
 
 .label-top {
@@ -124,6 +123,27 @@ em {
   background-color: #e67e22;
 }
 
+.button-full-width {
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  padding: 0.6em 1.05em;
+  color: #FFF;
+  background-color: #d35400;
+  border-radius: .5em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+
+  width: 100%;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.button-full-width:active, .button-full-width:hover, .button-full-width:focus {
+  background-color: #e67e22;
+}
+
 .text-block-container {
   margin-left: 15%;
   margin-right: 15%;
@@ -132,6 +152,13 @@ em {
 .text-block {
   max-width: 44rem;
   margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-block-bottom {
+  max-width: 44rem;
+  margin-bottom: 8rem;
   margin-left: auto;
   margin-right: auto;
 }
