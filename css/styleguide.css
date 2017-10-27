@@ -237,6 +237,20 @@ nav {
   box-shadow: 0px 4px 6px #e1e2e3;
 }
 
+.nav-item {
+  color: #d35400;
+  font-size: 0.6rem;
+  font-weight: bolder;
+  letter-spacing: .2rem;
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+
+.nav-item:hover, .nav-item:active, .nav-item:focus {
+  color: #e67e22;
+}
+
 .logo {
   font-family: 'Roboto Slab', sans-serif;
   color: black;
@@ -247,6 +261,17 @@ nav {
   padding-bottom: 1rem;
   flex-basis: 100%;
   text-align: center;
+  margin-top: 0;
+}
+
+.header-nav {
+  display: -ms-flex;
+  display: flex;
+
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  box-shadow: 0px 4px 6px #e1e2e3;
 }
 
 .header-nav-group {
@@ -262,7 +287,6 @@ nav {
 
 .nav-item {
   padding: 1rem;
-  margin:0;
   flex-basis: 100%;
   text-align: center;
 }
@@ -312,7 +336,7 @@ nav {
 }
 
 .footer-container {
-  background: #d3d3d3;
+  background: #1B1B1B;
   /*Uncomment this margin for actual implementaiton*/
   /*margin-top: 4rem;*/
 }
@@ -330,14 +354,18 @@ nav {
 }
 
 .footer-item {
-  color: black;
-  font-size: 0.9rem;
+  color: #797979;
+  font-size: 0.6rem;
   text-decoration: none;
   -webkit-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
   margin: 0;
+  font-weight: bolder;
 
+  letter-spacing: 0.2rem;
   padding: 1rem;
+
+  text-transform: uppercase;
 }
 
 .footer-item:active, .footer-item:hover, .footer-item:focus {
@@ -371,8 +399,6 @@ nav {
     flex-basis: auto;
     text-align: left;
     margin-left: 2rem;
-    margin-top: 0;
-    margin-right: 0;
   }
 
   .header-nav-group {
