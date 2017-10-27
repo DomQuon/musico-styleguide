@@ -48,35 +48,35 @@
 /*The following classes specify which background images should be inserted*/
 
 .theory-image {
-    background-image: url(../images/theory.png);
+    background-image: url(../images/theory.jpg);
 }
 
 .harmony-image {
-    background-image: url(../images/harmony.png);
+    background-image: url(../images/harmony.jpg);
 }
 
 .history-image {
-    background-image: url(../images/history.png);
+    background-image: url(../images/history.jpg);
 }
 
 .piano-image {
-    background-image: url(../images/piano.png);
+    background-image: url(../images/piano.jpg);
 }
 
 .violin-image {
-    background-image: url(../images/violin.png);
+    background-image: url(../images/violin.jpg);
 }
 
 .singing-image {
-    background-image: url(../images/singing.png);
+    background-image: url(../images/singing.jpg);
 }
 
 .acoustic-guitar-image {
-    background-image: url(../images/acoustic-guitar.png);
+    background-image: url(../images/acoustic-guitar.jpg);
 }
 
 .electric-guitar-image {
-    background-image: url(../images/electric-guitar.png);
+    background-image: url(../images/electric-guitar.jpg);
 }
 
 @media(max-width: 77.125rem) {
