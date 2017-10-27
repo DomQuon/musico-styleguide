@@ -4,16 +4,17 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-nav {
-  position: fixed;
+.side-nav {
+  position: static;
   border-style: solid;
-  border-bottom: 1px;
+  border-width: 0.06rem;
   border-color: #F2F2F2;
-  border-top: 0;
-  border-left: 0;
-  height:100%;
-  width:9.5rem;
+  border:0;
+  min-height: 100%;
+  overflow-y: visible;
+  width: 100%;
   background: white;
+  text-align: center;
   display: inline-block;
   z-index: 1;
 }
@@ -49,14 +50,17 @@ a {
 }
 
 .style-container {
-  margin-left: 9.5rem;
+  position: static;
   display:flex;
   flex-wrap: wrap;
-  padding: 6rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
 }
 
 .tile-full-width {
   flex-basis: 100%;
+  margin-top: 3rem;
 }
 
 h2 {
@@ -114,11 +118,11 @@ h6 {
   color: black;
   border-style: solid;
   border-color: #DDD;
-  border-width: 1px;
+  border-width: 0.06rem;
 }
 
 .tile {
-  margin-top: 6rem;
+  margin-top: 3rem;
   flex-basis: 100%;
 }
 
@@ -138,7 +142,7 @@ h5 {
 }
 
 code {
-  font-family: monospace, sans-serif;
+  font-family: monospace, 'Inconsolata';
   background: #F2F2F2;
   font-size: 0.9rem;
 }
@@ -171,6 +175,174 @@ code {
   font-size: 1rem;
 }
 
+input {
+  height: 2rem;
+  padding-left: 0.5rem;
+  width: 100%;
+  max-width: 16rem;
+  border-style: solid;
+  border-color: #DDD;
+  border-width: 0.06rem;
+  border-radius: 0.15rem;
+}
+
+.hyperlink {
+  margin:0;
+}
+
+.submit-button {
+  font-weight: normal;
+  font-size: 1rem;
+  padding: 0.6em 1.05em;
+  color: #FFF;
+  background-color: #d35400;
+  border-radius: 0.15em;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  margin: 0;
+
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+
+  display: inline-block;
+}
+
+.submit-button:active, .submit-button:hover, .submit-button:focus {
+  background-color: #e67e22;
+}
+
+ul {
+  padding-left: 1rem;
+  line-height: 1.5rem;
+}
+
+ol {
+  padding-left: 1rem;
+  line-height: 1.5rem;
+}
+
+/*THIS IS THE MAIN NAV STYLING*/
+
+nav {
+  display: -ms-flex;
+  display: flex;
+
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  box-shadow: 0px 4px 6px #e1e2e3;
+}
+
+.logo {
+  font-family: 'Roboto Slab', sans-serif;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.header-nav-group {
+  display: -ms-flex;
+  display: flex;
+
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  flex-basis: 100%;
+  padding-bottom: 0.4rem;
+}
+
+.nav-item {
+  padding: 1rem;
+  margin:0;
+  flex-basis: 100%;
+  text-align: center;
+}.footer-container {
+  background: #d3d3d3;
+  /*Uncomment this margin for actual implementaiton*/
+  /*margin-top: 4rem;*/
+}
+
+.footer-items-group {
+  display: -ms-flex;
+  display: flex;
+
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  justify-content:flex-end;
+
+  margin-right: 1rem;
+}
+
+.footer-item {
+  color: black;
+  font-size: 0.9rem;
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+  margin: 0;
+
+  padding: 1rem;
+}
+
+.footer-item:active, .footer-item:hover, .footer-item:focus {
+  color: #d35400;
+}
+
+.grid-container{
+  display:flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.grid-box {
+  flex-basis: 12.5rem;
+  height: 12.5rem;
+  background: #DDD;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.grid-text {
+  text-align: center;
+  line-height: 12.5rem;
+}
+
+@media(min-width: 30rem) {
+  .logo {
+    display:block;
+    -ms-flex-grow: 2;
+    flex-grow: 2;
+    flex-basis: auto;
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .header-nav-group {
+    text-align: left;
+    flex-basis: auto;
+    margin-right: 1rem;
+    padding-bottom: 0;
+  }
+
+  .nav-item {
+    text-align: left;
+    flex-basis: auto;
+
+    /*centers content vertically*/
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
 @media(min-width: 64.5rem) {
   .tile {
     flex-basis: 50%;
@@ -180,5 +352,44 @@ code {
 @media(min-width: 85.25rem) {
   .tile {
     flex-basis: 33.333%;
+  }
+}
+
+@media(min-width: 26rem) {
+  .footer-container {
+    /*Uncomment fixed position this during actual implementation*/
+    /*position:fixed;*/
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+  }
+}
+
+@media(min-width: 38.75rem) {
+  .style-container {
+    margin-left:9.5rem;
+    padding-right: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 6rem;
+  }
+
+  .tile-full-width {
+    margin-top: 6rem;
+  }
+
+  .tile {
+    margin-top: 6rem;
+  }
+
+  .side-nav {
+    position: fixed;
+    left: 0rem;
+    width: 9.5rem;
+    text-align: left;
+    border-width: 0.06rem;
+    border-right: 0.06rem;
+    border-style: solid;
+    border-color: #F2F2f2;
   }
 }
