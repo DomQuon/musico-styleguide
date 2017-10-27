@@ -20,14 +20,3 @@
   box-shadow: 2px 2px 8px #d3d3d3;
   color: #d35400;
 }
-
-.instructor {
-  font-weight: bolder;
-  font-size: 1.1rem;
-}
-
-.reviews {
-  display: inline;
-  font-size: .6rem;
-  color: #797979;
-}
