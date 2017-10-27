@@ -1,8 +1,22 @@
 .detail-item {
-  border-radius: 1.3rem;
+  background-repeat: no-repeat;
+  background-size: 12.5rem;
+  width: 12.5rem;
+  height: 8rem;
+  box-shadow: 1px 1px 6px #d3d3d3;
+  border-radius: 1rem;
+  text-decoration: none;
+  padding-left: 2rem;
+  padding-top: 1.3rem;
+
   margin: 0.5rem;
-  padding: 2rem;
-  box-shadow: 0px 4px 6px #e1e2e3;
-  text-align: center;
   display: inline-block;
+
+  -webkit-transition: box-shadow 0.2s ease-out, color 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out, color 0.2s ease-out;
+}
+
+.detail-item:active, .detail-item:hover, .detail-item:focus {
+  box-shadow: 2px 2px 8px #d3d3d3;
+  color: #d35400;
 }

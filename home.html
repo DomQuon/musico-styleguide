@@ -4,6 +4,7 @@
   <head>
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Musico - Home </title>
 
     <link href="css/atoms.css" rel="stylesheet">
@@ -25,43 +26,56 @@
     <nav class="header-nav">
       <a href="home.html" class="logo">musico</a>
       <div class="header-nav-group">
-        <a href="about.html" class="nav-item">about</a>
-        <a href="lessons.html" class="nav-item">lessons</a>
-        <a href="" class="nav-item">log in</a>
+        <a href="about.html" class="nav-item">ABOUT</a>
+        <a href="contact.html" class="nav-item">CONTACT</a>
+        <a href="#lessons" class="nav-item">LESSONS</a>
+        <a href="review.html" class="nav-item">REVIEW</a>
+        <a href="" class="nav-item">LOGIN</a>
       </div>
     </nav>
 
-    <section>
-      <h1 class="">Teach. Learn. Collaborate.</h1>
-      <p class="intro-paragraph"> Musico is an open platform that allows people to learn music from the best teachers in your surrounding area.</p>
+    <section class="intro">
+      <div class="intro-content">
+        <h1 class="intro-title-white">Teach. Learn. Collaborate.</h1>
+        <p class="intro-paragraph-white"> Connect with the best music teachers in your surrounding area.</p>
+      </div>
+      <img class="background" src="images/splash.png" alt="black and white image of microphones with stands and chairs"/>
+    </section>
+
+    <section id=lessons>
+      <h1>Lessons</h1>
     </section>
 
     <section class="category-group">
       <!-- Titles function in the same way as alt attributes - good for accessibility -->
-      <a href="lessons.html" class="category-item theory-image" title="An image of music sheets">
-        <h2>Theory</h2>
+      <a href="details.html" class="category-item theory-image" title="An image of music sheets">
+        <h2 class="category-title">Theory</h2>
       </a>
-      <a href="" class="category-item harmony-image" title="An image of a person singing">
-        <h2>Harmony</h2>
+      <a href="details.html" class="category-item harmony-image" title="An image of a person singing">
+        <h2 class="category-title">Harmony</h2>
       </a>
-      <a class="category-item history-image" title="An image of music sheets with a shallow depth of field">
-        <h2>History</h2>
+      <a href="details.html" class="category-item history-image" title="An image of music sheets with a shallow depth of field">
+        <h2 class="category-title">History</h2>
       </a>
-      <a class="category-item piano-image" title="An image of someone playing the piano">
-        <h2>Piano</h2>
+      <a href="details.html" class="category-item piano-image" title="An image of someone playing the piano">
+        <h2 class="category-title">Piano</h2>
       </a>
-      <a class="category-item violin-image" title="An image of a violin">
-        <h2>Violin</h2>
+      <a href="details.html" class="category-item violin-image" title="An image of a violin">
+        <h2 class="category-title">Violin</h2>
       </a>
-      <a class="category-item singing-image" title="An image of a mic with a spotlight on it">
-        <h2>Singing</h2>
+      <a href="details.html" class="category-item singing-image" title="An image of a mic with a spotlight on it">
+        <h2 class="category-title">Singing</h2>
       </a>
-      <a class="category-item acoustic-guitar-image" title="An image of someone playing an acoustic guitar">
-        <h2>Acoustic Guitar</h2>
+      <a href="details.html" class="category-item acoustic-guitar-image" title="An image of someone playing an acoustic guitar">
+        <h2 class="category-title">Acoustic Guitar</h2>
       </a>
-      <a class="category-item electric-guitar-image" title="An image of someone playing an electric guitar">
-        <h2>Electric Guitar</h2>
+      <a href="details.html" class="category-item electric-guitar-image" title="An image of someone playing an electric guitar">
+        <h2 class="category-title">Electric Guitar</h2>
       </a>
+    </section>
+
+    <section>
+      <h1>Upcoming Events</h1>
     </section>
 
     <section class="event-group">
@@ -72,7 +86,7 @@
           <p>6561 Music Street</p>
         </div>
         <p class="event-description">Singing Workshop held by our special guest instructor, Maria Dafinci. Audtions start August 9th.</p>
-        <a href="article-template.html" class="button">Read more</a>
+        <a href="article-template.html" class="button">Details</a>
       </div>
       <div class="event-item">
         <h4>Music Festival</h4>
@@ -81,7 +95,7 @@
           <p>6551 Music Street</p>
         </div>
         <p class="event-description">Category: Violin. Open to violinists ages 18 - 25. Registration starts October 10th. </p>
-        <a href="article-template.html" class="button">Read more</a>
+        <a href="article-template.html" class="button">Details</a>
       </div>
       <div class="event-item">
         <h4>Kids' Music Event</h4>
@@ -90,17 +104,16 @@
           <p>6501 Music Street</p>
         </div>
         <p class="event-description">Kids' Music Event held by our special guest, Sophia Lee. Event open to kids ages 6-12. Registration starts May 11.</p>
-        <a href="article-template.html" class="button">Read more</a>
+        <a href="article-template.html" class="button">Details</a>
       </div>
     </section>
 
 
     <footer class="footer-container">
       <div class="footer-items-group">
-        <a href="contact.html" class="footer-item">contact us</a>
-        <a href="#" class="footer-item">careers</a>
-        <a href="#" class="footer-item">office location</a>
-        <a href="#" class="footer-item">help centre</a>
+        <a href="references.html" class="footer-item">REFERENCES</a>
+        <a href="styleguide.html" class="footer-item">STYLE GUIDE</a>
+        <a href="https://github.com/DomQuon/musico-styleguide" class="footer-item">GIT REPOSITORY</a>
     </footer>
 
 
