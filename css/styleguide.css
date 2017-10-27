@@ -1,6 +1,9 @@
 *, *::after, *::before {
   box-sizing: border-box;
   margin:0;
+}
+
+body {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -133,7 +136,7 @@ h6 {
 
 h5 {
   text-transform: uppercase;
-  font-weight: black;
+  font-weight: bold;
   letter-spacing: 0.06rem;
   font-size: 0.5rem;
   margin-top: 1.5rem;
@@ -262,7 +265,53 @@ nav {
   margin:0;
   flex-basis: 100%;
   text-align: center;
-}.footer-container {
+}
+
+.detail-item {
+  width: 12.5rem;
+  height: 8rem;
+  box-shadow: 1px 1px 6px #d3d3d3;
+  border-radius: 1rem;
+  text-decoration: none;
+  padding-left: 2rem;
+  padding-top: 1.3rem;
+  margin: -0;
+  display: inline-block;
+  -webkit-transition: box-shadow 0.2s ease-out, color 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out, color 0.2s ease-out;
+}
+
+.detail-item:active, .detail-item:hover, .detail-item:focus {
+  box-shadow: 2px 2px 8px #d3d3d3;
+  color: #d35400;
+}
+
+.instructor {
+  font-weight: bolder;
+  font-size: 1.1rem;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  width: 100%;
+}
+
+.checked {
+  color: orange;
+}
+
+.rate {
+  margin-bottom: 0.7rem;
+  color: #000;
+  font-size: 1rem;
+}
+
+.reviews {
+  display: inline;
+  font-size: .6rem;
+  color: #797979;
+}
+
+.footer-container {
   background: #d3d3d3;
   /*Uncomment this margin for actual implementaiton*/
   /*margin-top: 4rem;*/
