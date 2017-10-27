@@ -50,6 +50,13 @@ a {
   margin-left: 1.2rem;
   margin-right: 1.2rem;
   margin-top: 1rem;
+
+  -webkit-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+
+a:hover, a:active, a:focus {
+  color: #e67e22;
 }
 
 .style-container {
@@ -213,6 +220,7 @@ input {
 
 .submit-button:active, .submit-button:hover, .submit-button:focus {
   background-color: #e67e22;
+  color: white;
 }
 
 ul {
@@ -389,6 +397,21 @@ nav {
 .grid-text {
   text-align: center;
   line-height: 12.5rem;
+}
+
+.reference-header {
+  margin-bottom: 1.5rem;
+}
+
+.reference-title {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.reference-link {
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 @media(min-width: 30rem) {
