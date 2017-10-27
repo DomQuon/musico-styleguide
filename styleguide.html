@@ -8,32 +8,33 @@
     <link href="css/styleguide.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
   </head>
 
   <body>
 
-    <nav>
+    <section class="side-nav">
       <h1>musico</h1>
       <h3>styleguide</h3>
-      <a href="#">Swatches</a>
-      <a href="#">Headers</a>
-      <a href="#">Paragraphs</a>
-      <a href="#">Text fields</a>
-      <a href="#">Hyperlinks</a>
-      <a href="#">Buttons</a>
-      <a href="#">Bulleted lists</a>
-      <a href="#">Numbered lists</a>
-      <a href="#">Main nav</a>
-      <a href="#">Footer</a>
-      <a href="#">Product listing</a>
-      <a href="#">Grid</a>
-    </nav>
+      <a href="#swatches">Swatches</a>
+      <a href="#headers">Headers</a>
+      <a href="#paragraphs">Paragraphs</a>
+      <a href="#text-fields">Text fields</a>
+      <a href="#hyperlinks">Hyperlinks</a>
+      <a href="#buttons">Buttons</a>
+      <a href="#bulleted-lists">Bulleted lists</a>
+      <a href="#numbered-lists">Numbered lists</a>
+      <a href="#main-nav">Main nav</a>
+      <a href="#product-listing">Product listing</a>
+      <a href="#footer">Footer</a>
+      <a href="#grid">Grid</a>
+    </section>
 
 <!-- Style container is used to offset the content by the width of the nav bar -->
     <section class="style-container">
 
-      <div class="tile-full-width">
-        <h2>Swatches</h2>
+      <section class="tile-full-width">
+        <h2 id="swatches">Swatches</h2>
         <div class="swatch-group">
           <div class="swatch dark-orange">
             <h6>Dark orange #D35400</h6>
@@ -51,19 +52,19 @@
             <h6>Light white #FFF</h6>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="tile">
+      <section id="headers" class="tile">
         <h2>H1</h2>
         <h5>CSS selectors</h5>
         <p class="css-selector">h1</p>
         <h5>Code</h5>
         <code>&lt;h1&gt;This is a page header&lt;/h1&gt;</code>
         <h5>Rendered element</h5>
-        <h1 class="header-1">This a our page title</h1>
-      </div>
+        <h1 class="header-1">This is a page title</h1>
+      </section>
 
-      <div class="tile">
+      <section class="tile">
         <h2>H2</h2>
         <h5>CSS selectors</h5>
         <p class="css-selector">h2</p>
@@ -71,9 +72,9 @@
         <code>&lt;h2&gt;This is a section header&lt;/h2&gt;</code>
         <h5>Rendered element</h5>
         <h2 class="header-2">This is a section header</h2>
-      </div>
+      </section>
 
-      <div class="tile">
+      <section class="tile">
         <h2>H3</h2>
         <h5>CSS selectors</h5>
         <p class="css-selector">h3</p>
@@ -81,9 +82,9 @@
         <code>&lt;h3&gt;This is a subtitle&lt;/h3&gt;</code>
         <h5>Rendered element</h5>
         <h3 class="header-3">This is a subtitle</h3>
-      </div>
+      </section>
 
-      <div class="tile">
+      <section id="paragraphs" class="tile">
         <h2>Paragraphs</h2>
         <h5>CSS selectors</h5>
         <p class="css-selector">p</p>
@@ -91,10 +92,177 @@
         <code>&lt;p&gt;This is a paragraph&lt;/p&gt;</code>
         <h5>Rendered element</h5>
         <p class="paragraph">This is a paragraph.</p>
-      </div>
+      </section>
+
+      <section id="text-fields"class="tile">
+        <h2>Text fields</h2>
+        <h5>CSS selectors</h5>
+        <p class="css-selector">input</p>
+        <h5>Code</h5>
+        <code>&lt;input type="text" placeholder=""&gt;<br>&lt;/input&gt;</code>
+        <h5>Rendered element</h5>
+        <input type="text" placeholder="This is a form field"></input>
+      </section>
+
+      <section id="hyperlinks" class="tile">
+        <h2>Hyperlinks</h2>
+        <h5>CSS selectors</h5>
+        <p class="css-selector">a</p>
+        <h5>Code</h5>
+        <code>&lt;a href="#"&gt;This is a link&lt;/a&gt;</code>
+        <h5>Rendered element</h5>
+        <a href="#" class="hyperlink">This is a link</a>
+      </section>
+
+      <section id="buttons" class="tile">
+        <h2>Buttons</h2>
+        <h5>CSS selectors</h5>
+        <p class="css-selector">a, .submit-button</p>
+        <h5>Code</h5>
+        <code>&lt;a href="#" class="submit-button"&gt;<br>Call to action&lt;/a&gt;</code>
+        <h5>Rendered element</h5>
+        <a href="#" class="submit-button">Call to action</a>
+      </section>
+
+      <section id="bulleted-lists" class="tile">
+        <h2>Bulleted lists</h2>
+        <h5>CSS selectors</h5>
+        <p class="css-selector">ul, li</p>
+        <h5>Code</h5>
+        <code>
+          &lt;ul&gt;<br>
+          &lt;li&gt;item 1&lt;/li&gt;<br>
+          &lt;li&gt;item 2&lt;/li&gt;<br>
+          &lt;li&gt;item 3&lt;/li&gt;<br>
+          &lt;/ul&gt;
+        </code>
+        <h5>Rendered element</h5>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+      </section>
+
+      <section id="numbered-lists" class="tile">
+        <h2>Numbered lists</h2>
+        <h5>CSS selectors</h5>
+        <p class="css-selector">ol, li</p>
+        <h5>Code</h5>
+        <code>
+          &lt;ol&gt;<br>
+          &lt;li&gt;item 1&lt;/li&gt;<br>
+          &lt;li&gt;item 2&lt;/li&gt;<br>
+          &lt;li&gt;item 3&lt;/li&gt;<br>
+          &lt;/ol&gt;
+        </code>
+        <h5>Rendered element</h5>
+        <ol>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ol>
+      </section>
+
+      <section id="main-nav" class="tile-full-width">
+        <h2>Main nav</h2>
+        <h5>CSS selectors</h5>
+        <p class="css-selector">nav, .logo, .header-nav-group, .nav-item</p>
+        <h5>Code</h5>
+        <code>
+          &lt;nav&gt;<br>
+          &lt;a href="home.html" class="logo"&gt;musico&lt;/a&gt;<br>
+          &lt;div class="header-nav-group"&gt;<br>
+          &lt;a href="about.html" class="nav-item"&gt;about&lt;/a&gt;<br>
+          &lt;a href="lessons.html" class="nav-item"&gt;lessons&lt;/a&gt;<br>
+          &lt;a href="#" class="nav-item"&gt;log in&lt;/a&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;/nav&gt;<br>
+        </code>
+        <h5>Rendered element</h5>
+        <nav>
+          <a href="home.html" class="logo">musico</a>
+          <div class="header-nav-group">
+            <a href="about.html" class="nav-item">about</a>
+            <a href="lessons.html" class="nav-item">lessons</a>
+            <a href="" class="nav-item">log in</a>
+          </div>
+        </nav>
+      </section>
+
+      <section id="product-listing" class="tile-full-width">
+        <h2>Product listing</h2>
+        <h5>CSS selectors</h5>
+        <h5>Code</h5>
+        <h5>Rendered element</h5>
+      </section>
+
+      <section id="footer" class="tile-full-width">
+        <h2>Footer</h2>
+        <h5>CSS selectors</h5>
+        <p class="css-selector">footer, .footer-container, .footer-items-group, a, .footer-item</p>
+        <h5>Code</h5>
+        <code>
+          &lt;footer class="footer-container"&gt;<br>
+          &lt;div class="footer-items-group"&gt;<br>
+          &lt;a href="contact.html class="footer-item"&gt;contact us&lt;/a&gt;<br>
+          &lt;a href="#" class="footer-item"&gt;careers&lt;/a&gt;<br>
+          &lt;a href="#" class="footer-item"&gt;office location&lt;/a&gt;<br>
+          &lt;a href="#" class="footer-item"&gt;help centre&lt;/a&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;/footer&gt;
+        </code>
+        <h5>Rendered element</h5>
+        <footer class="footer-container">
+          <div class="footer-items-group">
+            <a href="contact.html" class="footer-item">contact us</a>
+            <a href="#" class="footer-item">careers</a>
+            <a href="#" class="footer-item">office location</a>
+            <a href="#" class="footer-item">help centre</a>
+          </div>
+        </footer>
+      </section>
+
+      <section id="grid" class="tile-full-width">
+        <h2>Grid</h2>
+        <h5>CSS selectors</h5>
+        <p class="css-selector">.grid-container, .grid-box, .grid-text, h2</p>
+        <h5>Code</h5>
+        <code>
+          &lt;section class="grid-container"&gt;<br>
+          &lt;div class="grid-box"&gt;<br>
+          &lt;h2 class="grid-text"&gt;1&lt;/h2&gt;<br>
+          &lt;/div&gt;
+          &lt;div class="grid-box"&gt;<br>
+          &lt;h2 class="grid-text"&gt;2&lt;/h2&gt;<br>
+          &lt;/div&gt;
+          &lt;div class="grid-box"&gt;<br>
+          &lt;h2 class="grid-text"&gt;3&lt;/h2&gt;<br>
+          &lt;/div&gt;
+          &lt;div class="grid-box"&gt;<br>
+          &lt;h2 class="grid-text"&gt;4&lt;/h2&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;/section&gt;
+        </code>
+        <h5>Rendered element</h5>
+          <section class="grid-container">
+            <div class="grid-box">
+              <h2 class="grid-text">1</h2>
+            </div>
+            <div class="grid-box">
+              <h2 class="grid-text">2</h2>
+            </div>
+            <div class="grid-box">
+              <h2 class="grid-text">3</h2>
+            </div>
+            <div class="grid-box">
+              <h2 class="grid-text">4</h2>
+            </div>
+          </section>
+      </section>
+
 
     </section>
-
 
   </body>
 
