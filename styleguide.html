@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -31,7 +32,8 @@
     </section>
 
 <!-- Style container is used to offset the content by the width of the nav bar -->
-    <section class="style-container">
+    <div class="style-container">
+      <!-- Valid section code requires an h element... Even if I don't need it -->
 
       <section class="tile-full-width">
         <h2 id="swatches">Swatches</h2>
@@ -94,14 +96,14 @@
         <p class="paragraph">This is a paragraph.</p>
       </section>
 
-      <section id="text-fields"class="tile">
+      <section id="text-fields" class="tile">
         <h2>Text fields</h2>
         <h5>CSS selectors</h5>
         <p class="css-selector">input</p>
         <h5>Code</h5>
         <code>&lt;input type="text" placeholder=""&gt;<br>&lt;/input&gt;</code>
         <h5>Rendered element</h5>
-        <input type="text" placeholder="This is a form field"></input>
+        <input type="text" placeholder="This is a form field">
       </section>
 
       <section id="hyperlinks" class="tile">
@@ -193,8 +195,36 @@
       <section id="product-listing" class="tile-full-width">
         <h2>Product listing</h2>
         <h5>CSS selectors</h5>
+        <p class="css-selector">.detail-item, .instructor, .rate, .fa, .fa-star, .checked, .reviews</p>
         <h5>Code</h5>
+        <code>
+          &lt;a href="instructor.html" class="detail-item"&gt;<br>
+          &lt;p class="instructor"&gt;Mariam Wong&lt;/p&gt;<br>
+          &lt;p class="rate"&gt;$50/lesson (1hr)&lt;/p&gt;<br>
+          &lt;div&gt;<br>
+          &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;<br>
+          &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;<br>
+          &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;<br>
+          &lt;span class="fa fa-star checked"&gt;&lt;/span&gt;<br>
+          &lt;span class="fa fa-star"&gt;&lt;/span&gt;<br>
+          &lt;p class="reviews"&gt;(15 reviews)&lt;/p&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;/a&gt;<br>
+        </code>
         <h5>Rendered element</h5>
+
+        <a href="instructor.html" class="detail-item">
+          <p class="instructor">Mariam Wong</p>
+          <p class="rate">$50/lesson (1hr)</p>
+          <div>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p class="reviews">(15 reviews)</p>
+          </div>
+        </a>
       </section>
 
       <section id="footer" class="tile-full-width">
@@ -262,7 +292,7 @@
       </section>
 
 
-    </section>
+    </div>
 
   </body>
 
